@@ -1,0 +1,173 @@
+.ecrm-wrap {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.ecrm-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+}
+
+.ecrm-card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 26px;
+}
+
+.ecrm-card h3 {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.ecrm-steps p {
+    margin: 12px 0;
+    line-height: 1.8;
+}
+
+.ecrm-steps a {
+    color: #2271b1;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.ecrm-steps a:hover {
+    text-decoration: underline;
+}
+
+.ecrm-warning {
+    background: #fff3cd;
+    border-right: 4px solid #ffc107;
+    padding: 12px 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+
+.ecrm-warning p {
+    margin: 0;
+    color: #856404;
+}
+
+.ecrm-code-box {
+    background: #f0f0f1;
+    border: 1px solid #dcdcde;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 15px 0;
+    direction: ltr;
+    text-align: left;
+    overflow-x: auto;
+}
+
+.ecrm-code-box pre {
+    margin: 0;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #1e1e1e;
+    white-space: pre;
+    word-wrap: normal;
+}
+
+.ecrm-code-box code {
+    color: #1e1e1e;
+    background: transparent;
+    padding: 0;
+}
+
+.ecrm-code-box::-webkit-scrollbar {
+    height: 8px;
+}
+
+.ecrm-code-box::-webkit-scrollbar-track {
+    background: #e0e0e0;
+    border-radius: 4px;
+}
+
+.ecrm-code-box::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 4px;
+}
+
+.ecrm-code-box::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+
+.ecrm-copy-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #2271b1;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background 0.2s;
+    z-index: 10;
+}
+
+.ecrm-copy-btn:hover {
+    background: #135e96;
+}
+
+.ecrm-code-box pre {
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.ecrm-code-box code {
+    font-family: 'Courier New', monospace;
+    font-size: 13px;
+    color: #333;
+}
+
+.ecrm-success {
+    background: #d4edda;
+    border-right: 4px solid #28a745;
+    padding: 12px 15px;
+    margin: 15px 0;
+    border-radius: 4px;
+}
+
+.ecrm-success p {
+    margin: 0;
+    color: #155724;
+    font-weight: 600;
+}
+
+.ecrm-webhook-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.ecrm-webhook-box input {
+    flex: 1;
+}
+
+.ecrm-detail-box {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ecrm-detail-box h2 {
+    margin-top: 0;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+}
