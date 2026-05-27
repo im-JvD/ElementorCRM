@@ -3,7 +3,7 @@
 Plugin Name:        ElementorCRM
 Plugin URI:         https://WpGit.ir/landing/ElementorCRM
 Description:        ذخیره فرم‌های المنتوری و ارسال آن در پیام‌رسان بله توسط وب‌هوک با قابلیت خروجی داده‌ها بصورت فایل csv .
-Version:            1.0.1
+Version:            1.0.0
 Author:             محمد جواد کریمی
 Author URI:         https://mohamadjavadkarimi.ir/
 */
