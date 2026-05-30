@@ -106,22 +106,5 @@ function ecrm_is_compatible() {
         return false;
     }
 
-    if ( ! defined( 'ELEMENTOR_PRO_VERSION' ) ) {
-        ecrm_admin_notice( 'ElementorCRM نیاز دارد افزونه Elementor Pro نصب و فعال باشد.' );
-        return false;
-    }
-
-    if ( version_compare( ELEMENTOR_PRO_VERSION, ECRM_MIN_ELEMENTOR_PRO_VERSION, '<' ) ) {
-        ecrm_admin_notice(
-            sprintf(
-                'ElementorCRM نیاز به Elementor Pro نسخه %s یا بالاتر دارد. نسخه فعلی: %s',
-                esc_html( ECRM_MIN_ELEMENTOR_PRO_VERSION ),
-                esc_html( ELEMENTOR_PRO_VERSION )
-            ),
-            'warning'
-        );
-        return false;
-    }
-
     return true;
 }
