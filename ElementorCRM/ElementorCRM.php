@@ -6,7 +6,7 @@
  * Version:            1.0.1
  * Author:             im - JvD
  * Author URI:         https://mohamadjavadkarimi.ir/
- * Requires at least:  6.6
+ * Requires at least:  6.9.0
  * Tested up to:       7.0
  * Requires PHP:       7.4
  * Requires Plugins:   elementor
