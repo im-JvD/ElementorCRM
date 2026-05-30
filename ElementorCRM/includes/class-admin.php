@@ -305,6 +305,28 @@ class ECRM_Admin {
         $marked = isset( $_GET['marked'] ) ? sanitize_text_field( $_GET['marked'] ) : '';
         $submissions = ECRM_Database::get_recent( 50 );
         ?>
+		
+		<div class="wrap ecrm-wrap" dir="rtl" style="margin-bottom: 0;">
+			<div class="ecrm-card">
+				<div style="display: grid; grid-template-columns: 60% 40%; align-items: center; gap: 20px;">
+					<div>
+						<strong>📢 مشارکت و توسعه افزونه</strong>
+						<p style="margin: 4px 0 0; color: #666; font-size: 13px;">
+							جهت برخورداری از آخرین اخبار مربوط به افزونه ElementorCRM و ثبت هرگونه فید بک ( پیشنهاد و انتقاد ) میتوانید از طریق آیدی‌های نام‌برده با ما ارتباط برقرار نمایید ... مشتاق دیدار 🌹
+						</p>
+					</div>
+					<div style="display: flex; flex-direction: row; justify-content: center; align-items: center; gap: 10px;">
+						<a href="https://t.me/WpGit" target="_blank" class="button button-primary" style="text-align: center;">
+							📣 کانال پیام‌رسان تلگرام
+						</a>
+						<a href="https://ble.ir/wordpress_fa" target="_blank" class="button" style="text-align: center;">
+							💬 کانال پیام‌رسان بله
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
         <div class="wrap ecrm-wrap" dir="rtl">
             <h1>📊 فرم‌های دریافتی</h1>
 
