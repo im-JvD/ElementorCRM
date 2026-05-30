@@ -8,7 +8,7 @@
  * Author URI:         https://mohamadjavadkarimi.ir/
  * Requires at least:  6.9
  * Requires PHP:       7.4
- * Requires Plugins:   elementor, elementor-pro
+ * Requires Plugins:   elementor
  * Elementor requires at least: 3.20.0
  * Elementor tested up to: 4.1.1
  */
@@ -20,7 +20,6 @@ define( 'ECRM_VERSION', '1.0.0' );
 define( 'ECRM_PATH',    plugin_dir_path( __FILE__ ) );
 define( 'ECRM_URL',     plugin_dir_url( __FILE__ ) );
 define( 'ECRM_MIN_ELEMENTOR_VERSION', '3.20.0' );
-define( 'ECRM_MIN_ELEMENTOR_PRO_VERSION', '3.20.0' );
 define( 'ECRM_MIN_PHP_VERSION', '7.4' );
 
 
